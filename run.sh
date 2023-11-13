@@ -21,4 +21,4 @@ qemu-system-x86_64 -no-reboot \
     -monitor /dev/null \
     -serial mon:stdio \
     -virtfs local,path=/tmp,mount_tag=host0,security_model=passthrough,id=foobar \
-    -nographic -s
+    -nographic
