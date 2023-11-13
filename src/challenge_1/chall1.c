@@ -94,8 +94,8 @@ static int __init chall_1_init(void) {
 
     // Initialisation du livre
     for(int i=1; i<=NB_CHAPITRE; i++){
-        livre[i].size = i*10;
-        memset(livre[i].content, 0, livre[i].size);
+        livre[i-1].size = i*10;
+        memset(livre[i-1].content, 0, livre[i-1].size);
     }
     chapitre_en_cours = 0;
 
