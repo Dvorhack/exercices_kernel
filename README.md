@@ -35,7 +35,7 @@ Pour compiler un noyau minimal comme pour l'example de ce workshop
 export LINUX_VERSION="6.5.10"
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-$LINUX_VERSION.tar.xz
 tar xvf linux-$LINUX_VERSION.tar.xz
-cd $LINUX_VERSION
+cd linux-$LINUX_VERSION
 make defconfig
 make kvm_guest.config
 make -j`nproc`
