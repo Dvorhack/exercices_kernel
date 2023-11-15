@@ -1,3 +1,7 @@
+// Attention ! Pour compiler on utilise l'option -static
+// Sinon votre binaire de marchera pas la vm :)
+// Example: gcc -o example example.c -static
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
