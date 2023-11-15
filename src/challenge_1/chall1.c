@@ -10,7 +10,7 @@
 #define CLASS_NAME "chall1"
 #define NB_CHAPITRE 10
 
-MODULE_AUTHOR("Dvorhaxk");
+MODULE_AUTHOR("Dvorhack");
 MODULE_DESCRIPTION("Challenge 1");
 MODULE_LICENSE("GPL");
 

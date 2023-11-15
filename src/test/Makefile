@@ -1,5 +1,5 @@
 MOD = test
-KPATH :=/home/dvorhack/Documents/ws_hackutt/linux-6.5.10/
+KPATH :=/home/dvorhack/Downloads/linux-6.5.10/
 PWD :=$(shell pwd)
 obj-m = $(MOD).o
 
