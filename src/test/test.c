@@ -77,7 +77,7 @@ static int __init test_init(void) {
         unregister_chrdev(major, DEVICE_NAME);
         printk(KERN_ALERT "[test] Failed to create the device\n");
     }
-
+    printk(KERN_ALERT "[test] Je suis bien chargé :)");
     return 0;
 }
 
